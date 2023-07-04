@@ -15,16 +15,25 @@
 
 <body>
 
+
   <!-- Title -->
   <section class="gradient-background" id=" title">
-   <div> <div class="container col-xxl-8 px-4 mb-0 pt-5 pb-0">
+    <nav class="navbar bg-body-tertiary">
+      <div class="justify-content-left container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/tindog logo.png" alt="Logo" width="120"  class="d-inline-block align-text-center">
+        Where Dogs Meet</a>
+        <button type="button" class="btn cta-btn btn-danger">Find Your Match Today</button>
+      </div>
+    </nav>
+   <div> <div class="container col-xxl-8 px-4 mb-0 pt-5 pb-5">
     <div class="row align-items-center justify-content-center">
     </div>
-      <div class="row flex-lg-row-reverse align-items-center g-0 py-0">
+      <div class="dog-image row flex-lg-row-reverse align-items-center g-0 py-0">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="./images/iphone.png" class="d-block mx-lg-auto img-fluid" alt="Dog on iPhone" width="300px" loading="doggie_paddle">
+          <img src="./images/dog-iphone.png" class="d-block mx-lg-auto img-fluid" alt="Dog on iPhone" height="350px" loading="doggie_paddle">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 align-items-center justify-content-center">
           <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Meet new and interesting dogs nearby.</h1>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <button type="button" class="btn btn-light btn-lg px-4 me-md-2"> 
@@ -39,7 +48,7 @@
               class="bi bi-google-play mb-1" viewBox="0 0 16 16">
 <path
                 d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
-              </svg>Download</button>
+              </svg> Download</button>
           </div>
         </div>
       </div>
@@ -101,12 +110,14 @@
         <h2 class="display-5 py-5 fw-bold align-items-center justify-content-center">"I no longer have to sniff other dogs around Kenner. I've found the hottest Corgi on TinDog. Woof."</h2>
         <img class="profile-img" src="./images/dog-img.jpg" alt="Photo of dog">
         <p class="p-2">Pebbles, New York</p>
-      <div class="row p-3 justify-content-evenly">
-        <img class="col-xl-2 col-sm-3 col-3" width="1rem" src="./images/mashable.png" alt="Mashable Logo">
-        <img class="col-xl-2 col-sm-3 col-3" width="1rem" src="./images/techcrunch.png" alt="Techcrunch Logo">
-        <img class="col-xl-2 col-sm-3 col-3" width="1rem" src="./images/bizinsider.png" alt="BizInsider Logo">
-        <img class="col-xl-2 col-sm-3 col-3" width="1rem" src="./images/tnw.png" alt="TNW Logo">
-      
+      <div class="container">
+        <div class="row align-items-center">
+          <img class="col-lg-3 col-sm-3 pb-4" src="./images/mashable.png" alt="Mashable Logo" height="20%">
+          <img class="col-lg-3 col-sm-3 pb-4" src="./images/techcrunch.png" alt="Techcrunch Logo" height="20%">
+          <img class="col-lg-3 col-sm-3 pb-4" src="./images/bizinsider.png" alt="BizInsider Logo" height="20%">
+          <img class="col-lg-3 col-sm-3 pb-4" src="./images/tnw.png" alt="TNW Logo" height="20%">
+        </div>
+      </div>
       </div>
       
       </div>
@@ -116,7 +127,7 @@
   <section id="container pricing">
     <div class="container py-2">
        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-          <h1 class="display-4 fw-normal text-body-emphasis">A Plan for Every Dog's Needs</h1>
+          <h2 class="display-4 fw-normal text-body-emphasis">A Plan for Every Dog's Needs</h2z>
           <p class="fs-5 text-body-secondary">Simple and affordable price plans for you and your dog.</p>
        </div>
       <main>
@@ -176,7 +187,7 @@
   <!-- Footer -->
   <section class="gradient-background" id="footer">
     <div class="container">
-      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5">
         <div class="col mb-3">
           <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
